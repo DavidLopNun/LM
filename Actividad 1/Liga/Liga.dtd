@@ -1,0 +1,9 @@
+<!ELEMENT liga (equipo+)>
+<!ELEMENT equipo (presidente, nombre, FechaFundacion)>
+<!ELEMENT autores (autor+)>
+<!ELEMENT FechaFundacion (dia, mes, anio)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT presidente (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libreria SYSTEM "Libreria.dtd">
+<libreria>
+
+
+<libro>
+    <autores>
+        <autor>
+            <apellido1>Cervantes</apellido1>
+            <apellido2>Saavedra</apellido2>
+            <nombre>Miguel</nombre>
+            <genero>Hombre</genero>
+        </autor>
+    </autores>
+    <titulo>El ingenioso hidalgo Don Quijote De La Mancha</titulo>
+    <CodigoLibro>1</CodigoLibro>
+    <editorial>Catedra</editorial>
+    <edicion>Original</edicion>
+    <FechaPublicacion>
+        <dia>16</dia>
+        <mes>Enero</mes>
+        <anio>1605</anio>
+    </FechaPublicacion>
+    <ISBN>9788408061052</ISBN>
+    <numPaginas>1560</numPaginas>
+</libro>
+
+<libro>
+    <autores>
+        <autor>
+            <apellido1>Rojas</apellido1>
+            <apellido2></apellido2>
+            <nombre>Fernando</nombre>
+            <genero>Hombre</genero>
+        </autor>
+    </autores>
+    <titulo>La Celestina</titulo>
+    <CodigoLibro>2</CodigoLibro>
+    <editorial>La Mar De Fácil</editorial>
+    <edicion>Original</edicion>
+    <FechaPublicacion>
+        <dia>Desconocido</dia>
+        <mes>Desconocido</mes>
+        <anio>1499</anio>
+    </FechaPublicacion>
+    <ISBN>9781589771260</ISBN>
+    <numPaginas>244</numPaginas>
+</libro>
+
+<libro>
+    <autores>
+        <autor>
+            <apellido1>Hurtado</apellido1>
+            <apellido2>Mendoza</apellido2>
+            <nombre>Diego</nombre>
+            <genero>Hombre</genero>
+        </autor>
+    </autores>
+    <titulo>El Lazarillo De Tormes</titulo>
+    <CodigoLibro>3</CodigoLibro>
+    <editorial>Juventud</editorial>
+    <edicion>Original</edicion>
+    <FechaPublicacion>
+        <dia>Desconocido</dia>
+        <mes>Desconocido</mes>
+        <anio>1554</anio>
+    </FechaPublicacion>
+    <ISBN>9788497406826</ISBN>
+    <numPaginas>128</numPaginas>
+</libro>
+
+<libro>
+    <autores>
+        <autor>
+            <apellido1>Lope de Vega</apellido1>
+            <apellido2>Carpio</apellido2>
+            <nombre>Félix</nombre>
+            <genero>Hombre</genero>
+        </autor>
+    </autores>
+    <titulo>Fuenteovejuna</titulo>
+    <CodigoLibro>4</CodigoLibro>
+    <editorial>Austral</editorial>
+    <edicion>Original</edicion>
+    <FechaPublicacion>
+        <dia>Desconocido</dia>
+        <mes>Desconocido</mes>
+        <anio>1619</anio>
+    </FechaPublicacion>
+    <ISBN>9780828870412</ISBN>
+    <numPaginas>94</numPaginas>
+</libro>
+
+<libro>
+    <autores>
+        <autor>
+            <apellido1>Alas</apellido1>
+            <apellido2></apellido2>
+            <nombre>Leopoldo</nombre>
+            <genero>Hombre</genero>
+        </autor>
+    </autores>
+    <titulo>La Regenta</titulo>
+    <CodigoLibro>5</CodigoLibro>
+    <editorial>Austral</editorial>
+    <edicion>Original</edicion>
+    <FechaPublicacion>
+        <dia>Desconocido</dia>
+        <mes>Desconocido</mes>
+        <anio>1884</anio>
+    </FechaPublicacion>
+    <ISBN>9788423916672</ISBN>
+    <numPaginas>944</numPaginas>
+</libro>
+
+<libro>
+    <autores>
+        <autor>
+            <apellido1>Zorrilla</apellido1>
+            <apellido2></apellido2>
+            <nombre>Jose</nombre>
+            <genero>Hombre</genero>
+        </autor>
+    </autores>
+    <titulo>Don Juan Tenorio</titulo>
+    <CodigoLibro>6</CodigoLibro>
+    <editorial>Catedra</editorial>
+    <edicion>Original</edicion>
+    <FechaPublicacion>
+        <dia>28</dia>
+        <mes>Marzo</mes>
+        <anio>1844</anio>
+    </FechaPublicacion>
+    <ISBN>9788469848517</ISBN>
+    <numPaginas>184</numPaginas>
+</libro>
+
+<libro>
+    <autores>
+        <autor>
+            <apellido1>Pardo</apellido1>
+            <apellido2>Bazán</apellido2>
+            <nombre>Emilia</nombre>
+            <genero>Mujer</genero>
+        </autor>
+    </autores>
+    <titulo>Los Pazos de Ulloa</titulo>
+    <CodigoLibro>7</CodigoLibro>
+    <editorial>La Mar De Fácil</editorial>
+    <edicion>Original</edicion>
+    <FechaPublicacion>
+        <dia>Desconocido</dia>
+        <mes>Desconocido</mes>
+        <anio>1886</anio>
+    </FechaPublicacion>
+    <ISBN>9788419772176</ISBN>
+    <numPaginas>472</numPaginas>
+</libro>
+
+<libro>
+    <autores>
+        <autor>
+            <apellido1>Calderón</apellido1>
+            <apellido2>De la Barca</apellido2>
+            <nombre>Pedro</nombre>
+            <genero>Hombre</genero>
+        </autor>
+    </autores>
+    <titulo>La vida es un sueño</titulo>
+    <CodigoLibro>8</CodigoLibro>
+    <editorial>Catedra</editorial>
+    <edicion>Original</edicion>
+    <FechaPublicacion>
+        <dia>Desconocido</dia>
+        <mes>Desconocido</mes>
+        <anio>1635</anio>
+    </FechaPublicacion>
+    <ISBN>9788420725895</ISBN>
+    <numPaginas>178</numPaginas>
+</libro>
+
+<libro>
+    <autores>
+        <autor>
+            <apellido1>Valle-Inclán</apellido1>
+            <apellido2></apellido2>
+            <nombre>Ramón María</nombre>
+            <genero>Hombre</genero>
+        </autor>
+    </autores>
+    <titulo>Luces de Bohemia</titulo>
+    <CodigoLibro>9</CodigoLibro>
+    <editorial>Austral</editorial>
+    <edicion>Original</edicion>
+    <FechaPublicacion>
+        <dia>23</dia>
+        <mes>Octubre</mes>
+        <anio>1923</anio>
+    </FechaPublicacion>
+    <ISBN>9788423938735</ISBN>
+    <numPaginas>295</numPaginas>
+</libro>
+
+<libro>
+    <autores>
+        <autor>
+            <apellido1>García</apellido1>
+            <apellido2>Lorca</apellido2>
+            <nombre>Federico</nombre>
+            <genero>Hombre</genero>
+        </autor>
+    </autores>
+    <titulo>La Casa de Bernarda Alba</titulo>
+    <CodigoLibro>10</CodigoLibro>
+    <editorial>Catedra</editorial>
+    <edicion>Original</edicion>
+    <FechaPublicacion>
+        <dia>8</dia>
+        <mes>Marzo</mes>
+        <anio>1945</anio>
+    </FechaPublicacion>
+    <ISBN>9788469833070</ISBN>
+    <numPaginas>152</numPaginas>
+</libro>
+    
+
+</libreria>
+<!-- -->

@@ -1,0 +1,18 @@
+<!ELEMENT libreria (libro+)>
+<!ELEMENT libro (autores, titulo, CodigoLibro, editorial, edicion, FechaPublicacion, ISBN, numPaginas)>
+<!ELEMENT autores (autor+)>
+<!ELEMENT autor (apellido1, apellido2, nombre, genero)>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT CodigoLibro (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT edicion (#PCDATA)>
+<!ELEMENT FechaPublicacion (dia, mes, anio)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT numPaginas (#PCDATA)>
