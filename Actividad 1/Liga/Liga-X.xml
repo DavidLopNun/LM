@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Liga xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.gmrv.es LigaSchema.xsd">
+
+
+<liga>
+    <equipo>
+        <presidente>Florentino Pérez</presidente>
+        <nombre>Real Madrid</nombre>
+        <FechaFundacion>
+            <dia>6</dia>
+            <mes>Marzo</mes>
+            <anio>1902</anio>
+        </FechaFundacion>
+    </equipo>
+
+    <equipo>
+        <presidente>Joan Laporta</presidente>
+        <nombre>F.C. Barcelona</nombre>
+        <FechaFundacion>
+            <dia>29</dia>
+            <mes>Noviembre</mes>
+            <anio>1899</anio>
+        </FechaFundacion>
+    </equipo>
+
+    <equipo>
+        <presidente>Enrique Cerezo</presidente>
+        <nombre>Atlético de Madrid</nombre>
+        <FechaFundacion>
+            <dia>26</dia>
+            <mes>Abril</mes>
+            <anio>1903</anio>
+        </FechaFundacion>
+    </equipo>
+
+    <equipo>
+        <presidente>Ángel Haro</presidente>
+        <nombre>Real Betis</nombre>
+        <FechaFundacion>
+            <dia>12</dia>
+            <mes>Septiembre</mes>
+            <anio>1907</anio>
+        </FechaFundacion>
+    </equipo>
+
+    <equipo>
+        <presidente>Jose Castro</presidente>
+        <nombre>Sevilla F.C.</nombre>
+        <FechaFundacion>
+            <dia>25</dia>
+            <mes>Enero</mes>
+            <anio>1890</anio>
+        </FechaFundacion>
+    </equipo>
+
+    <equipo>
+        <presidente>Manuel Vizcaíno.</presidente>
+        <nombre>Cádiz C.F.</nombre>
+        <FechaFundacion>
+            <dia>3</dia>
+            <mes>Junio</mes>
+            <anio>1911</anio>
+        </FechaFundacion>
+    </equipo>
+
+    <equipo>
+        <presidente>Jokin Aperribay</presidente>
+        <nombre>Real Sociedad</nombre>
+        <FechaFundacion>
+            <dia>7</dia>
+            <mes>Septiembre</mes>
+            <anio>1909</anio>
+        </FechaFundacion>
+    </equipo>
+
+    <equipo>
+        <presidente>Carlos Mouriño</presidente>
+        <nombre>Celta de Vigo</nombre>
+        <FechaFundacion>
+            <dia>23</dia>
+            <mes>Agosto</mes>
+            <anio>1923</anio>
+        </FechaFundacion>
+    </equipo>
+
+    <equipo>
+        <presidente>Aitor Elizegi</presidente>
+        <nombre>Athletic Club de Bilbao</nombre>
+        <FechaFundacion>
+            <dia>Desconocido</dia>
+            <mes>Desconocido</mes>
+            <anio>1898</anio>
+        </FechaFundacion>
+    </equipo>
+
+    <equipo>
+        <presidente>Turki Al-Sheik</presidente>
+        <nombre>Unión Deportiva Álmería</nombre>
+        <FechaFundacion>
+            <dia>26</dia>
+            <mes>Julio</mes>
+            <anio>1989</anio>
+        </FechaFundacion>
+    </equipo>
+
+
+
+</liga>
