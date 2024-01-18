@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Concesionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.gmrv.es ConcesionarioSchema.xsd">
+<Concesionario>
+    <coche>
+        <codCoche>1</codCoche>
+        <marca>mercedes</marca>
+        <modelo>G</modelo>
+        <matricula>9421 GMT</matricula>
+        <potencia>
+            <caballos>170</caballos>
+        </potencia>
+        <plazas>5</plazas>
+        <numPuertas>5</numPuertas>
+    </coche>
+
+    <coche>
+        <codCoche>2</codCoche>
+        <marca>peugeot</marca>
+        <modelo>307</modelo>
+        <matricula>9444 GLT</matricula>
+        <potencia>
+            <caballos>136</caballos>
+        </potencia>
+        <plazas>5</plazas>
+        <numPuertas>5</numPuertas>
+    </coche>
+
+    <coche>
+        <codCoche>3</codCoche>
+        <marca>audi</marca>
+        <modelo>Q3</modelo>
+        <matricula>9421 FFF</matricula>
+        <potencia>
+            <caballos>150</caballos>
+        </potencia>
+        <plazas>5</plazas>
+        <numPuertas>5</numPuertas>
+    </coche>
+</Concesionario>

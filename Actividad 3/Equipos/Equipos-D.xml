@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Equipos SYSTEM "../Actividad%202/Equipos.dtd">
+<Equipos>
+    <equipo>
+        <colorEquipacion>Blanca </colorEquipacion>
+        <marcaEquipacion>Adidas</marcaEquipacion>
+        <posicion>2</posicion>
+        <entrenador>Ancelotti</entrenador>
+        <presidente>Florentino</presidente>
+    </equipo>
+
+    <equipo>
+        <colorEquipacion>Blaugrana </colorEquipacion>
+        <marcaEquipacion>Nike</marcaEquipacion>
+        <posicion>4</posicion>
+        <entrenador>Xavi</entrenador>
+        <presidente>Laporta</presidente>
+    </equipo>
+
+    <equipo>
+        <colorEquipacion>Verde y blanca </colorEquipacion>
+        <marcaEquipacion>Hummel</marcaEquipacion>
+        <posicion>7</posicion>
+        <entrenador>Pellegrini</entrenador>
+        <presidente>Haro</presidente>
+    </equipo>
+</Equipos>
