@@ -1,0 +1,7 @@
+<!ELEMENT Equipos (equipo*)>
+<!ELEMENT equipo (colorEquipacion, marcaEquipacion, posicion, entrenador, presidente)>
+<!ELEMENT colorEquipacion (#PCDATA)>
+<!ELEMENT marcaEquipacion (#PCDATA)>
+<!ELEMENT posicion (#PCDATA)>
+<!ELEMENT entrenador (#PCDATA)>
+<!ELEMENT presidente (#PCDATA)>
