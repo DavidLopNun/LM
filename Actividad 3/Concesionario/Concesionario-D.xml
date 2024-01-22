@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE Concesionario SYSTEM "../Actividad%202/Concesionario.dtd">
+<!DOCTYPE Concesionario SYSTEM "../../Actividad%202/Concesionario.dtd">
 <Concesionario>
     <coche>
         <codCoche>1</codCoche>
