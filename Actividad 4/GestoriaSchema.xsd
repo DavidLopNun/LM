@@ -1,0 +1,44 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="Gestoria">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Clientes" type="ClientesType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="ClientesType">
+    <xs:sequence>
+      <xs:element name="sede" type="SedeType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="SedeType">
+    <xs:sequence>
+      <xs:element name="nomEmpleado" type="xs:string"/>
+      <xs:element name="fechaAlta" type="xs:string"/>
+      <xs:element name="Cliente" type="ClienteType" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="codigoS" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="ClienteType">
+    <xs:sequence>
+      <xs:element name="descripcion" type="xs:string"/>
+      <xs:element name="nViviendas" type="xs:int"/>
+      <xs:element name="vivienda" type="ViviendaType" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="codigoC" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="ViviendaType">
+    <xs:sequence>
+      <xs:element name="coste" type="xs:string"/>
+      <xs:element name="resumen" type="xs:string"/>
+      <xs:element name="plazoHac" type="xs:int"/>
+    </xs:sequence>
+    <xs:attribute name="codigoV" type="xs:string" use="required"/>
+  </xs:complexType>
+
+</xs:schema>

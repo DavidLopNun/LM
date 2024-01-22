@@ -1,0 +1,19 @@
+<!ELEMENT Gestoria (Clientes)>
+<!ELEMENT Clientes (sede+)>
+<!ELEMENT sede (nomEmpleado, fechaAlta, Cliente+)>
+<!ATTLIST sede codigoS CDATA #REQUIRED>
+
+<!ELEMENT nomEmpleado (#PCDATA)>
+<!ELEMENT fechaAlta (#PCDATA)>
+
+<!ELEMENT Cliente (descripcion, nViviendas, vivienda+)>
+<!ATTLIST Cliente codigoC CDATA #REQUIRED>
+
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT nViviendas (#PCDATA)>
+<!ELEMENT vivienda (coste, resumen, plazoHac)>
+<!ATTLIST vivienda codigoV CDATA #REQUIRED>
+
+<!ELEMENT coste (#PCDATA)>
+<!ELEMENT resumen (#PCDATA)>
+<!ELEMENT plazoHac (#PCDATA)>
