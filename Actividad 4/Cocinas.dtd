@@ -1,0 +1,13 @@
+<!ELEMENT Cocinas (Cocina+)>
+<!ELEMENT Cocina (ubicacion, espacio, cocinero)>
+<!ATTLIST Cocina IDC CDATA #REQUIRED>
+
+<!ELEMENT ubicacion (#PCDATA)>
+<!ELEMENT espacio (#PCDATA)>
+
+<!ELEMENT cocinero (nombre, experiencia, edad)>
+<!ATTLIST cocinero ID CDATA #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT experiencia (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>

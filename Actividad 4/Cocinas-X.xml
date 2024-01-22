@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Cocinas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.gmrv.es CocinasSchema.xsd">
+
+<Cocinas>
+    <Cocina IDC="1">
+        <ubicación>Cadiz</ubicación>
+        <espacio>50m cuadrados</espacio>
+        <cocinero ID="1">
+            <nombre>David Lopez</nombre>
+            <experiencia>Alta</experiencia>
+            <edad>19</edad>
+        </cocinero>
+    </Cocina>
+
+    <Cocina IDC="2">
+        <ubicación>Granada</ubicación>
+        <espacio>60m cuadrados</espacio>
+        <cocinero ID="2">
+            <nombre>Maria Perez</nombre>
+            <experiencia>Alta</experiencia>
+            <edad>50</edad>
+        </cocinero>
+    </Cocina>
+
+    <Cocina IDC="3">
+        <ubicación>Sevilla</ubicación>
+        <espacio>30m cuadrados</espacio>
+        <cocinero ID="3">
+            <nombre>Juan Garcia</nombre>
+            <experiencia>Media</experiencia>
+            <edad>27</edad>
+        </cocinero>
+    </Cocina>
+</Cocinas>

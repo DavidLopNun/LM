@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Cocinas SYSTEM "Cocinas.dtd">
+
+<Cocinas>
+    <Cocina IDC="1">
+        <ubicacion>Cadiz</ubicacion>
+        <espacio>50m cuadrados</espacio>
+        <cocinero ID="1">
+            <nombre>David Lopez</nombre>
+            <experiencia>Alta</experiencia>
+            <edad>19</edad>
+        </cocinero>
+    </Cocina>
+
+    <Cocina IDC="2">
+        <ubicacion>Granada</ubicacion>
+        <espacio>60m cuadrados</espacio>
+        <cocinero ID="2">
+            <nombre>Maria Perez</nombre>
+            <experiencia>Alta</experiencia>
+            <edad>50</edad>
+        </cocinero>
+    </Cocina>
+
+    <Cocina IDC="3">
+        <ubicacion>Sevilla</ubicacion>
+        <espacio>30m cuadrados</espacio>
+        <cocinero ID="3">
+            <nombre>Juan Garcia</nombre>
+            <experiencia>Media</experiencia>
+            <edad>27</edad>
+        </cocinero>
+    </Cocina>
+</Cocinas>
