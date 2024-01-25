@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Modulos SYSTEM "Modulos.dtd">
+
+<Modulos>
+    <modulo>
+        <nombre>DAW</nombre>
+        <contenidos>
+            <unDidactica>
+                <asignatura>Lenguaje de Marcas</asignatura>
+                <tipo>Informatica</tipo>
+                <descripcion>Profesor/a: Ana</descripcion>
+            </unDidactica>
+            <unDidactica>
+                <asignatura>Entornos de Desarrollo</asignatura>
+                <tipo>Informatica</tipo>
+                <descripcion>Profesor/a: Ana</descripcion>
+            </unDidactica>
+            <unDidactica>
+                <asignatura>Base de Datos</asignatura>
+                <tipo>Informatica</tipo>
+                <descripcion>Profesor/a: Juan Carlos</descripcion>
+            </unDidactica>
+            <unDidactica>
+                <asignatura>Sistemas informáticos</asignatura>
+                <tipo>Informatica</tipo>
+                <descripcion>Profesor/a: Juan Carlos</descripcion>
+            </unDidactica>
+            <unDidactica>
+                <asignatura>Programacion</asignatura>
+                <tipo>Informatica</tipo>
+                <descripcion>Profesor/a: Diego</descripcion>
+            </unDidactica>
+            <unDidactica>
+                <asignatura>FOL</asignatura>
+                <tipo>Informatica</tipo>
+                <descripcion>Profesor/a: Jorge</descripcion>
+            </unDidactica>
+        </contenidos>
+    </modulo>
+</Modulos>

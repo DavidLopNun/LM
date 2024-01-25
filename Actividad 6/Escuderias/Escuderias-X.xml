@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Escuderias xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.gmrv.es EscuderiasSchema.xsd">
+
+    <Escuderias>
+        <escuderia>
+            <nombreE>Ferrari</nombreE>
+            <jefe>
+                <nombreJ>Fred Vasseur</nombreJ>
+                <edad>54</edad>
+            </jefe>
+        </escuderia>
+    
+        <escuderia>
+            <nombreE>Red Bull</nombreE>
+            <jefe>
+                <nombreJ>Christian Horner</nombreJ>
+                <edad>50</edad>
+            </jefe>
+        </escuderia>
+    
+        <escuderia>
+            <nombreE>Mercedes</nombreE>
+            <jefe>
+                <nombreJ>Toto Wolff</nombreJ>
+                <edad>52</edad>
+            </jefe>
+        </escuderia>
+    </Escuderias>

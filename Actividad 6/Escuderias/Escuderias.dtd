@@ -1,0 +1,6 @@
+<!ELEMENT Escuderias (escuderia+)>
+<!ELEMENT escuderia (nombreE, jefe)>
+<!ELEMENT nombreE (#PCDATA)>
+<!ELEMENT jefe (nombreJ, edad)>
+<!ELEMENT nombreJ (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
