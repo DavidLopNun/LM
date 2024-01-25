@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Plantilla xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.gmrv.es PlantillaSchema.xsd">
+
+    <Plantilla>
+        <Jugdor>
+            <nombre>Isco</nombre>
+            <edad>31</edad>
+            <exEquipo>Sevilla</exEquipo>
+        </Jugdor>
+    
+        <Jugdor>
+            <nombre>Fekir</nombre>
+            <edad>30</edad>
+            <exEquipo>O. Lyon</exEquipo>
+        </Jugdor>
+    
+        <Jugdor>
+            <nombre>Guido</nombre>
+            <edad>29</edad>
+            <exEquipo>America</exEquipo>
+        </Jugdor>
+    </Plantilla>

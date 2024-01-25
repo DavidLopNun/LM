@@ -1,0 +1,7 @@
+<!ELEMENT Alumnado (Alumno+)>
+<!ELEMENT Alumno (NIF, resultado, observaciones, IP_Mac)>
+
+<!ELEMENT NIF (#PCDATA)>
+<!ELEMENT resultado (#PCDATA)>
+<!ELEMENT observaciones (#PCDATA)>
+<!ELEMENT IP_Mac (#PCDATA)>

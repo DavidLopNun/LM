@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Alumnado xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.gmrv.es AlumnadoSchema.xsd">
+<Alumnado>
+    <Alumno>
+        <NIF>77496750k</NIF>
+        <resultado>Apto</resultado>
+        <observaciones>Realiza buen proyecto</observaciones>
+        <IP_Mac>IP</IP_Mac>
+    </Alumno>
+
+    <Alumno>
+        <NIF>77496777k</NIF>
+        <resultado>Apto</resultado>
+        <observaciones></observaciones>
+        <IP_Mac>MAC</IP_Mac>
+    </Alumno>
+
+    <Alumno>
+        <NIF>77496666k</NIF>
+        <resultado>No apto</resultado>
+        <observaciones>No realiza proyecto</observaciones>
+        <IP_Mac>IP</IP_Mac>
+    </Alumno>
+</Alumnado>

@@ -1,0 +1,6 @@
+<!ELEMENT Plantilla (Jugador+)>
+<!ELEMENT Jugador (nombre, edad, exEquipo)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT exEquipo (#PCDATA)>

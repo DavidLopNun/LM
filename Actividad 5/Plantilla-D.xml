@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Plantilla SYSTEM "Plantilla.dtd">
+
+<Plantilla>
+    <Jugador>
+        <nombre>Isco</nombre>
+        <edad>31</edad>
+        <exEquipo>Sevilla</exEquipo>
+    </Jugador>
+
+    <Jugador>
+        <nombre>Fekir</nombre>
+        <edad>30</edad>
+        <exEquipo>O. Lyon</exEquipo>
+    </Jugador>
+
+    <Jugador>
+        <nombre>Guido</nombre>
+        <edad>29</edad>
+        <exEquipo>America</exEquipo>
+    </Jugador>
+</Plantilla>
