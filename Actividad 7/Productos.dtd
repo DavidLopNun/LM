@@ -1,0 +1,8 @@
+<!ELEMENT Productos (producto+)>
+<!ELEMENT producto (nombre, precio, disponible, detalles)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT disponible (#PCDATA)>
+<!ELEMENT detalles (color, talla)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT talla (#PCDATA)>

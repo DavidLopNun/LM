@@ -1,0 +1,9 @@
+<!ELEMENT Editorial (edicion, descripcion, fecha, region+)>
+<!ELEMENT edicion (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT region (trimestre+)>
+<!ATTLIST region zona CDATA #REQUIRED>
+<!ELEMENT trimestre (librosVendidos)>
+<!ATTLIST trimestre id CDATA #REQUIRED>
+<!ELEMENT librosVendidos (#PCDATA)>
