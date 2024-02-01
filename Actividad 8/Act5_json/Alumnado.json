@@ -1,0 +1,48 @@
+{
+  "Alumnado": {
+    "Alumno": [
+      {
+        "NIF": [
+          "77496750k"
+        ],
+        "resultado": [
+          "Apto"
+        ],
+        "observaciones": [
+          "Realiza buen proyecto"
+        ],
+        "IP_Mac": [
+          "IP"
+        ]
+      },
+      {
+        "NIF": [
+          "77496777k"
+        ],
+        "resultado": [
+          "Apto"
+        ],
+        "observaciones": [
+          ""
+        ],
+        "IP_Mac": [
+          "MAC"
+        ]
+      },
+      {
+        "NIF": [
+          "77496666k"
+        ],
+        "resultado": [
+          "No apto"
+        ],
+        "observaciones": [
+          "No realiza proyecto"
+        ],
+        "IP_Mac": [
+          "IP"
+        ]
+      }
+    ]
+  }
+}

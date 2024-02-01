@@ -1,0 +1,24 @@
+{
+    "BDsms": {
+      "sms": [
+        {
+          "telefono": "955556555",
+          "fecha": "1/7/2011",
+          "hora": "23:55",
+          "mensaje": "Juego 1: Tetris"
+        },
+        {
+          "telefono": "745155611",
+          "fecha": "22/9/2011",
+          "hora": "15:05",
+          "mensaje": "Juego 2: Arkanoid"
+        },
+        {
+          "telefono": "842352200",
+          "fecha": "10/11/2011",
+          "hora": "09:22",
+          "mensaje": "Juego 3: Comecocos"
+        }
+      ]
+    }
+  }

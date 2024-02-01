@@ -1,0 +1,132 @@
+{
+  "Editorial": {
+    "edicion": [
+      "Aranda"
+    ],
+    "descripcion": [
+      "Informe de ventas para las regiones Norte, Centro y Sur"
+    ],
+    "fecha": [
+      "30/12/2009"
+    ],
+    "region": [
+      {
+        "$": {
+          "zona": "Norte"
+        },
+        "trimestre": [
+          {
+            "$": {
+              "id": "1"
+            },
+            "librosVendidos": [
+              "24000"
+            ]
+          },
+          {
+            "$": {
+              "id": "2"
+            },
+            "librosVendidos": [
+              "38600"
+            ]
+          },
+          {
+            "$": {
+              "id": "3"
+            },
+            "librosVendidos": [
+              "NO_INFO"
+            ]
+          },
+          {
+            "$": {
+              "id": "4"
+            },
+            "librosVendidos": [
+              "NO_INFO"
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "zona": "Centro"
+        },
+        "trimestre": [
+          {
+            "$": {
+              "id": "1"
+            },
+            "librosVendidos": [
+              "NO_INFO"
+            ]
+          },
+          {
+            "$": {
+              "id": "2"
+            },
+            "librosVendidos": [
+              "16080"
+            ]
+          },
+          {
+            "$": {
+              "id": "3"
+            },
+            "librosVendidos": [
+              "25000"
+            ]
+          },
+          {
+            "$": {
+              "id": "4"
+            },
+            "librosVendidos": [
+              "29000"
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "zona": "Sur"
+        },
+        "trimestre": [
+          {
+            "$": {
+              "id": "1"
+            },
+            "librosVendidos": [
+              "27000"
+            ]
+          },
+          {
+            "$": {
+              "id": "2"
+            },
+            "librosVendidos": [
+              "31400"
+            ]
+          },
+          {
+            "$": {
+              "id": "3"
+            },
+            "librosVendidos": [
+              "40100"
+            ]
+          },
+          {
+            "$": {
+              "id": "4"
+            },
+            "librosVendidos": [
+              "30000"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

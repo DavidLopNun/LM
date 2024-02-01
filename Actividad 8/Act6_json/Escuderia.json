@@ -1,0 +1,51 @@
+{
+  "Escuderias": {
+    "escuderia": [
+      {
+        "nombreE": [
+          "Ferrari"
+        ],
+        "jefe": [
+          {
+            "nombreJ": [
+              "Fred Vasseur"
+            ],
+            "edad": [
+              "54"
+            ]
+          }
+        ]
+      },
+      {
+        "nombreE": [
+          "Red Bull"
+        ],
+        "jefe": [
+          {
+            "nombreJ": [
+              "Christian Horner"
+            ],
+            "edad": [
+              "50"
+            ]
+          }
+        ]
+      },
+      {
+        "nombreE": [
+          "Mercedes"
+        ],
+        "jefe": [
+          {
+            "nombreJ": [
+              "Toto Wolff"
+            ],
+            "edad": [
+              "52"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

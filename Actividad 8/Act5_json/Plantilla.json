@@ -1,0 +1,39 @@
+{
+  "Plantilla": {
+    "Jugador": [
+      {
+        "nombre": [
+          "Isco"
+        ],
+        "edad": [
+          "31"
+        ],
+        "exEquipo": [
+          "Sevilla"
+        ]
+      },
+      {
+        "nombre": [
+          "Fekir"
+        ],
+        "edad": [
+          "30"
+        ],
+        "exEquipo": [
+          "O. Lyon"
+        ]
+      },
+      {
+        "nombre": [
+          "Guido"
+        ],
+        "edad": [
+          "29"
+        ],
+        "exEquipo": [
+          "America"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "Equipos": {
+      "equipo": [
+        {
+          "colorEquipacion": "Blanca ",
+          "marcaEquipacion": "Adidas",
+          "posicion": "2",
+          "entrenador": "Ancelotti",
+          "presidente": "Florentino"
+        },
+        {
+          "colorEquipacion": "Blaugrana ",
+          "marcaEquipacion": "Nike",
+          "posicion": "4",
+          "entrenador": "Xavi",
+          "presidente": "Laporta"
+        },
+        {
+          "colorEquipacion": "Verde y blanca ",
+          "marcaEquipacion": "Hummel",
+          "posicion": "7",
+          "entrenador": "Pellegrini",
+          "presidente": "Haro"
+        }
+      ]
+    }
+  }

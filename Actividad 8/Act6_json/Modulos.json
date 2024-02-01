@@ -1,0 +1,83 @@
+{
+  "Modulos": {
+    "modulo": [
+      {
+        "nombre": [
+          "DAW"
+        ],
+        "contenidos": [
+          {
+            "unDidactica": [
+              {
+                "asignatura": [
+                  "Lenguaje de Marcas"
+                ],
+                "tipo": [
+                  "Informatica"
+                ],
+                "descripcion": [
+                  "Profesor/a: Ana"
+                ]
+              },
+              {
+                "asignatura": [
+                  "Entornos de Desarrollo"
+                ],
+                "tipo": [
+                  "Informatica"
+                ],
+                "descripcion": [
+                  "Profesor/a: Ana"
+                ]
+              },
+              {
+                "asignatura": [
+                  "Base de Datos"
+                ],
+                "tipo": [
+                  "Informatica"
+                ],
+                "descripcion": [
+                  "Profesor/a: Juan Carlos"
+                ]
+              },
+              {
+                "asignatura": [
+                  "Sistemas informáticos"
+                ],
+                "tipo": [
+                  "Informatica"
+                ],
+                "descripcion": [
+                  "Profesor/a: Juan Carlos"
+                ]
+              },
+              {
+                "asignatura": [
+                  "Programacion"
+                ],
+                "tipo": [
+                  "Informatica"
+                ],
+                "descripcion": [
+                  "Profesor/a: Diego"
+                ]
+              },
+              {
+                "asignatura": [
+                  "FOL"
+                ],
+                "tipo": [
+                  "Informatica"
+                ],
+                "descripcion": [
+                  "Profesor/a: Jorge"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

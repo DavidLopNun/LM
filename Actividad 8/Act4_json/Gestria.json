@@ -1,0 +1,253 @@
+{
+  "Gestoria": {
+    "Clientes": [
+      {
+        "sede": [
+          {
+            "$": {
+              "codigoS": "1"
+            },
+            "nomEmpleado": [
+              "Juan Garcia"
+            ],
+            "fechaAlta": [
+              "10/03/2022"
+            ],
+            "Cliente": [
+              {
+                "$": {
+                  "codigoC": "1"
+                },
+                "descripcion": [
+                  "solvente"
+                ],
+                "nViviendas": [
+                  "2"
+                ],
+                "vivienda": [
+                  {
+                    "$": {
+                      "codigoV": "1"
+                    },
+                    "coste": [
+                      "200.000"
+                    ],
+                    "resumen": [
+                      "Casa en Ubrique"
+                    ],
+                    "plazoHac": [
+                      "1"
+                    ]
+                  },
+                  {
+                    "$": {
+                      "codigoV": "2"
+                    },
+                    "coste": [
+                      "550.000"
+                    ],
+                    "resumen": [
+                      "Casa en Ubrique"
+                    ],
+                    "plazoHac": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$": {
+                  "codigoC": "2"
+                },
+                "descripcion": [
+                  "insolvente"
+                ],
+                "nViviendas": [
+                  "1"
+                ],
+                "vivienda": [
+                  {
+                    "$": {
+                      "codigoV": "3"
+                    },
+                    "coste": [
+                      "400.000"
+                    ],
+                    "resumen": [
+                      "Casa en Madrid"
+                    ],
+                    "plazoHac": [
+                      "10"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "codigoS": "2"
+            },
+            "nomEmpleado": [
+              "Carlos Moreno"
+            ],
+            "fechaAlta": [
+              "01/03/2020"
+            ],
+            "Cliente": [
+              {
+                "$": {
+                  "codigoC": "3"
+                },
+                "descripcion": [
+                  "solvente"
+                ],
+                "nViviendas": [
+                  "3"
+                ],
+                "vivienda": [
+                  {
+                    "$": {
+                      "codigoV": "4"
+                    },
+                    "coste": [
+                      "200.000"
+                    ],
+                    "resumen": [
+                      "Casa en Mallorca"
+                    ],
+                    "plazoHac": [
+                      "2"
+                    ]
+                  },
+                  {
+                    "$": {
+                      "codigoV": "5"
+                    },
+                    "coste": [
+                      "500.000"
+                    ],
+                    "resumen": [
+                      "Casa en Mallorca"
+                    ],
+                    "plazoHac": [
+                      "5"
+                    ]
+                  },
+                  {
+                    "$": {
+                      "codigoV": "6"
+                    },
+                    "coste": [
+                      "1.000.000"
+                    ],
+                    "resumen": [
+                      "Casa en Mallorca"
+                    ],
+                    "plazoHac": [
+                      "10"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$": {
+                  "codigoC": "4"
+                },
+                "descripcion": [
+                  "insolvente"
+                ],
+                "nViviendas": [
+                  "1"
+                ],
+                "vivienda": [
+                  {
+                    "$": {
+                      "codigoV": "7"
+                    },
+                    "coste": [
+                      "10.000.000"
+                    ],
+                    "resumen": [
+                      "Casa en Ibiza"
+                    ],
+                    "plazoHac": [
+                      "15"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "codigoS": "3"
+            },
+            "nomEmpleado": [
+              "Daniel Oñate"
+            ],
+            "fechaAlta": [
+              "29/01/2009"
+            ],
+            "Cliente": [
+              {
+                "$": {
+                  "codigoC": "5"
+                },
+                "descripcion": [
+                  "insolvente"
+                ],
+                "nViviendas": [
+                  "1"
+                ],
+                "vivienda": [
+                  {
+                    "$": {
+                      "codigoV": "8"
+                    },
+                    "coste": [
+                      "5.000.000"
+                    ],
+                    "resumen": [
+                      "Casa en Barcelona"
+                    ],
+                    "plazoHac": [
+                      "10"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$": {
+                  "codigoC": "6"
+                },
+                "descripcion": [
+                  "insolvente"
+                ],
+                "nViviendas": [
+                  "1"
+                ],
+                "vivienda": [
+                  {
+                    "$": {
+                      "codigoV": "9"
+                    },
+                    "coste": [
+                      "80.000"
+                    ],
+                    "resumen": [
+                      "Casa en Benaocaz"
+                    ],
+                    "plazoHac": [
+                      "10"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

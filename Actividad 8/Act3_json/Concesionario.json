@@ -1,0 +1,39 @@
+{
+    "Concesionario": {
+      "coche": [
+        {
+          "codCoche": "1",
+          "marca": "mercedes",
+          "modelo": "G",
+          "matricula": "9421 GMT",
+          "potencia": {
+            "caballos": "170"
+          },
+          "plazas": "5",
+          "numPuertas": "5"
+        },
+        {
+          "codCoche": "2",
+          "marca": "peugeot",
+          "modelo": "307",
+          "matricula": "9444 GLT",
+          "potencia": {
+            "caballos": "136"
+          },
+          "plazas": "5",
+          "numPuertas": "5"
+        },
+        {
+          "codCoche": "3",
+          "marca": "audi",
+          "modelo": "Q3",
+          "matricula": "9421 FFF",
+          "potencia": {
+            "caballos": "150"
+          },
+          "plazas": "5",
+          "numPuertas": "5"
+        }
+      ]
+    }
+  }

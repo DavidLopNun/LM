@@ -1,0 +1,87 @@
+{
+  "Cocinas": {
+    "Cocina": [
+      {
+        "$": {
+          "IDC": "1"
+        },
+        "ubicación": [
+          "Cadiz"
+        ],
+        "espacio": [
+          "50m cuadrados"
+        ],
+        "cocinero": [
+          {
+            "$": {
+              "ID": "1"
+            },
+            "nombre": [
+              "David Lopez"
+            ],
+            "experiencia": [
+              "Alta"
+            ],
+            "edad": [
+              "19"
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "IDC": "2"
+        },
+        "ubicación": [
+          "Granada"
+        ],
+        "espacio": [
+          "60m cuadrados"
+        ],
+        "cocinero": [
+          {
+            "$": {
+              "ID": "2"
+            },
+            "nombre": [
+              "Maria Perez"
+            ],
+            "experiencia": [
+              "Alta"
+            ],
+            "edad": [
+              "50"
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "IDC": "3"
+        },
+        "ubicación": [
+          "Sevilla"
+        ],
+        "espacio": [
+          "30m cuadrados"
+        ],
+        "cocinero": [
+          {
+            "$": {
+              "ID": "3"
+            },
+            "nombre": [
+              "Juan Garcia"
+            ],
+            "experiencia": [
+              "Media"
+            ],
+            "edad": [
+              "27"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
