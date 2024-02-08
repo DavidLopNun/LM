@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "Alumnado":{
+        "Alumno":{
+            "NIF":{
+                "type":"string"
+            }, "resultado":{
+                "type":"string"
+            }, "observaciones":{
+                "type":"string"
+            }, "IP_MAC":{
+                "type":"string"
+            }
+            }, "required":["NIF", "resultado", "observaciones", "IP_MAC"]
+    }
+}

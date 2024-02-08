@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "Productos":{
+        "producto":{
+            "nombre":{
+                "type":"string"
+            },"precio":{
+                "type":"number"
+            }, "disponible":{
+                "type":"boolean"
+            }, "detalles":{
+                  "color":{
+                    "type":"string"
+                }, "talla":{
+                    "type":"string"
+                }
+    }, "required":["color", "talla"]
+}, "required":["nombre", "precio", "disponible"]
+}
+}

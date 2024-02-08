@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "Escuderias":{
+        "escuderia":{
+            "nombre":{
+                "type":"string"
+            }, "jefe":{
+                "nombreJ":{
+                    "type":"string"
+                }, "edad":{
+                    "type":"integer"
+                }
+    }, "required":["nombreJ", "edad"]
+}, "required":["nombre"]
+}
+}

@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "Concesionario":{
+        "coche":{
+            "codCoche":{
+                "type":"string"
+            }, "marca":{
+                "type":"string"
+            }, "modelo":{
+                "type":"string"
+            }, "matricula":{
+                "type":"string"
+            }, "potencia":{
+                "caballos":{
+                    "type":"string"
+                }
+            }, "plazas":{
+                "type":"integer"
+            }, "numPuertas":{
+                "type":"integer"
+            }
+            }, "required":["telefono", "fecha", "hora", "mensaje"]
+    }
+}

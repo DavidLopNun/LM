@@ -1,0 +1,41 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "libreria":{
+        "libro":{
+            "autores":{
+                "autor":{
+                "apellido1":{
+                "type":"string"
+            }, "apellido2":{
+                "type":"string"
+            }, "nombre":{
+                "type":"string"
+            }, "genero":{
+                "type":"string"
+            }
+        }
+            }, "titulo":{
+        "type":"string"
+    }, "CodigoLibro":{
+        "type":"string"
+}, "editorial":{
+    "type":"string"
+}, "edicion":{
+    "type":"string"
+}, "FechaPublicacion":{
+    "dia":{
+        "type":"integer"
+    }, "mes":{
+           "type":"integer"
+    }, "anio":{
+        "type":"integer"
+    }
+}, "ISBN":{
+    "type":"string"
+}, "numPaginas":{
+    "type":"integer"
+},"required":["apellido1", "apellido2", "nombre", "genero", "titulo", "CodigoLibro", "editorial", "edicion", "dia", "mes", "anio", "ISBN", "numPaginas"]
+
+}
+}
+}

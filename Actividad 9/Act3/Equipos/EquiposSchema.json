@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "Equipos":{
+        "equipo":{
+            "colorEquipacion":{
+                "type":"string"
+            }, "marcaEquipacion":{
+                "type":"string"
+            }, "posicion":{
+                "type":"string"
+            }, "entrenador":{
+                "type":"string"
+            }, "presidente":{
+                "type":"integer"
+            }, "required":["colorEquipacion", "marcaEquipacion", "posicion", "entrenador", "presidente"]
+    }
+}
+}
