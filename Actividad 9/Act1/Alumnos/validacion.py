@@ -4,43 +4,35 @@ from jsonschema import validate
 # Definir el esquema
 schema = {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "BDsms":{
-        "sms":{
-            "telefono":{
-                "type":"string"
-            }, "fecha":{
-                "type":"string", "format":"date"
-            }, "hora":{
-                "type":"string"
-            }, "mensaje":{
-                "type":"string"
+    "Alumnos":{
+        "alumno":{
+            "nombre":{
+                "type":"string",
+                "minLength": 1
+            }, "apellido":{
+                "type":"string",
+                "minLength": 1
             }
-            }, "required":["telefono", "fecha", "hora", "mensaje"]
+            }, "required":["nombre", "apellido"]
     }
 }
 
 # Archivo JSON a validar
 archivo_json = '''
 {
-    "BDsms": {
-      "sms": [
+    "Alumnos": {
+      "alumno": [
         {
-          "telefono": "955556555",
-          "fecha": "1/7/2011",
-          "hora": "23:55",
-          "mensaje": "Juego 1: Tetris"
+          "nombre": "Juan",
+          "apellido": "Pérez"
         },
         {
-          "telefono": "745155611",
-          "fecha": "22/9/2011",
-          "hora": "15:05",
-          "mensaje": "Juego 2: Arkanoid"
+          "nombre": "María",
+          "apellido": "Gómez"
         },
         {
-          "telefono": "842352200",
-          "fecha": "10/11/2011",
-          "hora": "09:22",
-          "mensaje": "Juego 3: Comecocos"
+          "nombre": "Pedro",
+          "apellido": "López"
         }
       ]
     }

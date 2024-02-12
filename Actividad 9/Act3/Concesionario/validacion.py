@@ -7,23 +7,28 @@ schema = {
     "Concesionario":{
         "coche":{
             "codCoche":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "marca":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "modelo":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "matricula":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "potencia":{
                 "caballos":{
-                    "type":"string"
+                    "type":"integer"
                 }
-            }, "plazas":{
+            },"required":["codCoche", "marca", "modelo", "caballos"] 
+            ,"plazas":{
                 "type":"integer"
             }, "numPuertas":{
                 "type":"integer"
             }
-            }, "required":["telefono", "fecha", "hora", "mensaje"]
+            }, "required":["plazas", "numPuertas"]
     }
 }
 

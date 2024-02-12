@@ -7,12 +7,15 @@ schema = {
     "Plantilla":{
         "Jugador":{
             "nombre":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "edad":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "exEquipo":{
-                "type":"string"
-            }, "required":["NIF", "resultado", "observaciones", "IP_MAC"]
+                "type":"string",
+                "minLength": 1
+            }, "required":["nombre", "edad", "exEquipo"]
     }
 }
 }

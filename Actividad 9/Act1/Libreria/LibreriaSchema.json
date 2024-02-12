@@ -5,36 +5,48 @@
             "autores":{
                 "autor":{
                 "apellido1":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "apellido2":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "nombre":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "genero":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }
         }
-            }, "titulo":{
-        "type":"string"
+            },"required":["apellido1", "apellido2", "nombre", "genero"]
+             ,"titulo":{
+        "type":"string",
+        "minLength": 1
     }, "CodigoLibro":{
-        "type":"string"
+        "type":"string",
+        "minLength": 1
 }, "editorial":{
-    "type":"string"
+    "type":"string",
+    "minLength": 1
 }, "edicion":{
-    "type":"string"
+    "type":"string",
+    "minLength": 1
 }, "FechaPublicacion":{
+    "type":"string", "format":"date",
     "dia":{
         "type":"integer"
     }, "mes":{
            "type":"integer"
     }, "anio":{
         "type":"integer"
-    }
+    },"required":["titulo", "CodigoLibro", "editorial", "edicion", "dia", "mes", "anio"]
 }, "ISBN":{
-    "type":"string"
+    "type":"string",
+    "minLength": 1
 }, "numPaginas":{
-    "type":"integer"
-},"required":["apellido1", "apellido2", "nombre", "genero", "titulo", "CodigoLibro", "editorial", "edicion", "dia", "mes", "anio", "ISBN", "numPaginas"]
+    "type":"integer",
+    "minLength": 1
+},"required":["ISBN", "numPaginas"]
 
 }
 }

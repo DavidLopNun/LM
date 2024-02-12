@@ -7,13 +7,17 @@ schema = {
     "Alumnado":{
         "Alumno":{
             "NIF":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "resultado":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "observaciones":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "IP_MAC":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }
             }, "required":["NIF", "resultado", "observaciones", "IP_MAC"]
     }

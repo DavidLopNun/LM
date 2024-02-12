@@ -7,16 +7,19 @@ schema = {
     "Productos":{
         "producto":{
             "nombre":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             },"precio":{
                 "type":"number"
             }, "disponible":{
                 "type":"boolean"
             }, "detalles":{
                   "color":{
-                    "type":"string"
+                    "type":"string",
+                    "minLength": 1
                 }, "talla":{
-                    "type":"string"
+                    "type":"string",
+                    "minLength": 1
                 }
     }, "required":["color", "talla"]
 }, "required":["nombre", "precio", "disponible"]

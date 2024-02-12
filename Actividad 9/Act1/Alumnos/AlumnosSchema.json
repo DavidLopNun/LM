@@ -3,9 +3,11 @@
     "Alumnos":{
         "alumno":{
             "nombre":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "apellido":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }
             }, "required":["nombre", "apellido"]
     }

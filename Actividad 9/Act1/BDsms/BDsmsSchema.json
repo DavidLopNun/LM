@@ -3,13 +3,16 @@
     "BDsms":{
         "sms":{
             "telefono":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "fecha":{
                 "type":"string", "format":"date"
             }, "hora":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "mensaje":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }
             }, "required":["telefono", "fecha", "hora", "mensaje"]
     }

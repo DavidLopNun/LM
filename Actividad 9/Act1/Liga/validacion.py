@@ -7,10 +7,13 @@ schema = {
     "liga":{
         "equipo":{
                 "presidente":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "nombre":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "FechaFundacion":{
+                "type":"string", "format":"date",
                "dia":{
                "type":"integer"
             }, "mes":{

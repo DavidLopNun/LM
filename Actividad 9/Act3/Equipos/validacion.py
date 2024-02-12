@@ -7,15 +7,19 @@ schema = {
     "Equipos":{
         "equipo":{
             "colorEquipacion":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "marcaEquipacion":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "posicion":{
-                "type":"string"
-            }, "entrenador":{
-                "type":"string"
-            }, "presidente":{
                 "type":"integer"
+            }, "entrenador":{
+                "type":"string",
+                "minLength": 1
+            }, "presidente":{
+                "type":"string",
+                "minLength": 1
             }, "required":["colorEquipacion", "marcaEquipacion", "posicion", "entrenador", "presidente"]
     }
 }

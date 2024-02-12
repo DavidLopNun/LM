@@ -7,10 +7,12 @@ schema = {
     "Escuderias":{
         "escuderia":{
             "nombre":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "jefe":{
                 "nombreJ":{
-                    "type":"string"
+                    "type":"string",
+                    "minLength": 1
                 }, "edad":{
                     "type":"integer"
                 }

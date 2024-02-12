@@ -7,15 +7,19 @@ schema = {
     "Modulos":{
         "modulo":{
             "nombre":{
-                "type":"string"
+                "type":"string",
+                "minLength": 1
             }, "contenidos":{
                 "unDidactica":{
                 "asignatura":{
-                    "type":"string"
+                    "type":"string",
+                    "minLength": 1
                 }, "tipo":{
-                    "type":"string"
+                    "type":"string",
+                    "minLength": 1
                 }, "descripcion":{
-                    "type":"string"
+                    "type":"string",
+                    "minLength": 1
                 }
     }, "required":["asignatura", "tipo", "descripcion"]
 }
